@@ -1,0 +1,93 @@
+{
+	"artist" : "Vortech",
+	"album" : "...of What Remains",
+	"releaseDate" : "2015-09-18",
+	"releaseCode" : "VOR009",
+	"duration" : "52:47",
+	"downloadLink" : "#",
+	"studioReportId" : "12",
+	"recordingStartDate" : "2014-09-01",
+	"recordingEndDate" : "2015-08-27",
+	"isOnCD" : true,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Decay to Static",
+			"trackDuration" : "03:18",
+			"trackLyricsFile" : "remains.php#1",
+			"trackTabFile" : "Vortech - Decay to Static.gp5"
+		},
+		{ 
+			"trackTitle" : "Disconnect",
+			"trackDuration" : "04:07",
+			"trackLyricsFile" : "remains.php#2",
+			"trackTabFile" : "Vortech - Disconnect.gp5"
+		},
+		{ 
+			"trackTitle" : "Ghosts of Existence",
+			"trackDuration" : "07:33",
+			"trackLyricsFile" : "remains.php#3",
+			"trackTabFile" : "Vortech - Ghosts of Existence.gp5"
+		},
+		{ 
+			"trackTitle" : "Strength In Numbers",
+			"trackDuration" : "04:07",
+			"trackLyricsFile" : "remains.php#4",
+			"trackTabFile" : "Vortech - Strength In Numbers.gp5"
+		},
+		{ 
+			"trackTitle" : "Internal Poison",
+			"trackDuration" : "04:23",
+			"trackLyricsFile" : "remains.php#5",
+			"trackTabFile" : "Vortech - Internal Poison.gp5"
+		},
+		{ 
+			"trackTitle" : "Signal Loss",
+			"trackDuration" : "05:43",
+			"trackLyricsFile" : "remains.php#6",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "Oceans of Steel",
+			"trackDuration" : "03:53",
+			"trackLyricsFile" : "remains.php#7",
+			"trackTabFile" : "Vortech - Oceans of Steel.gp5"
+		},
+		{ 
+			"trackTitle" : "Predictable End",
+			"trackDuration" : "03:36",
+			"trackLyricsFile" : "remains.php#8",
+			"trackTabFile" : "Vortech - Predictable End.gp5"
+		},
+		{ 
+			"trackTitle" : "Blast Radius",
+			"trackDuration" : "03:30",
+			"trackLyricsFile" : "remains.php#9",
+			"trackTabFile" : "Vortech - Blast Radius.gp5"
+		},
+		{ 
+			"trackTitle" : "Neolithic (The Darkness Is Born)",
+			"trackDuration" : "03:48",
+			"trackLyricsFile" : "remains.php#10",
+			"trackTabFile" : "Vortech - Neolithic (The Darkness Is Born).gp5"
+		},
+		{ 
+			"trackTitle" : "Underutilized",
+			"trackDuration" : "04:39",
+			"trackLyricsFile" : "remains.php#11",
+			"trackTabFile" : "Vortech - Underutilized.gp5"
+		},
+		{ 
+			"trackTitle" : "Toxin Release",
+			"trackDuration" : "04:15",
+			"trackLyricsFile" : "remains.php#12",
+			"trackTabFile" : ""
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/remains-front" },
+		{ "back" : "artwork/remains-back" },
+		{ "inlay" : "artwork/remains-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/remains.php"
+}

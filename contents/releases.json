@@ -1,0 +1,860 @@
+[{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "...of What Remains",
+	"releaseDate" : "2015-09-18",
+	"releaseCode" : "VOR009",
+	"duration" : "52:41",
+	"downloadLink" : "http://www.vortechmusic.com/ofwhatremains",
+	"studioReportId" : "12",
+	"recordingStartDate" : "2014-09-01",
+	"recordingEndDate" : "2015-08-27",
+	"isOnCD" : true,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Decay to Static",
+			"trackDuration" : "03:19",
+			"trackLyricsFile" : "remains.php#1",
+			"trackTabFile" : "Vortech - Decay to Static.gp5"
+		},
+		{ 
+			"trackTitle" : "Disconnect",
+			"trackDuration" : "04:05",
+			"trackLyricsFile" : "remains.php#2",
+			"trackTabFile" : "Vortech - Disconnect.gp5"
+		},
+		{ 
+			"trackTitle" : "Ghosts of Existence",
+			"trackDuration" : "07:33",
+			"trackLyricsFile" : "remains.php#3",
+			"trackTabFile" : "Vortech - Ghosts of Existence.gp5"
+		},
+		{ 
+			"trackTitle" : "Strength In Numbers",
+			"trackDuration" : "04:07",
+			"trackLyricsFile" : "remains.php#4",
+			"trackTabFile" : "Vortech - Strength In Numbers.gp5"
+		},
+		{ 
+			"trackTitle" : "Internal Poison",
+			"trackDuration" : "04:20",
+			"trackLyricsFile" : "remains.php#5",
+			"trackTabFile" : "Vortech - Internal Poison.gp5"
+		},
+		{ 
+			"trackTitle" : "Signal Loss",
+			"trackDuration" : "05:32",
+			"trackLyricsFile" : "remains.php#6",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "Oceans of Steel",
+			"trackDuration" : "03:54",
+			"trackLyricsFile" : "remains.php#7",
+			"trackTabFile" : "Vortech - Oceans of Steel.gp5"
+		},
+		{ 
+			"trackTitle" : "Predictable End",
+			"trackDuration" : "03:37",
+			"trackLyricsFile" : "remains.php#8",
+			"trackTabFile" : "Vortech - Predictable End.gp5"
+		},
+		{ 
+			"trackTitle" : "Blast Radius",
+			"trackDuration" : "03:33",
+			"trackLyricsFile" : "remains.php#9",
+			"trackTabFile" : "Vortech - Blast Radius.gp5"
+		},
+		{ 
+			"trackTitle" : "Neolithic (The Darkness Is Born)",
+			"trackDuration" : "03:47",
+			"trackLyricsFile" : "remains.php#10",
+			"trackTabFile" : "Vortech - Neolithic (The Darkness Is Born).gp5"
+		},
+		{ 
+			"trackTitle" : "Underutilized",
+			"trackDuration" : "04:39",
+			"trackLyricsFile" : "remains.php#11",
+			"trackTabFile" : "Vortech - Underutilized.gp5"
+		},
+		{ 
+			"trackTitle" : "Toxin Release",
+			"trackDuration" : "04:14",
+			"trackLyricsFile" : "remains.php#12",
+			"trackTabFile" : ""
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/remains-front" },
+		{ "back" : "artwork/remains-back" },
+		{ "inlay" : "artwork/remains-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/remains.php"
+},
+{
+	"canShow" : false,
+	"artist" : "Vortech",
+	"album" : "Impenitence (EP)",
+	"releaseDate" : "2014-05-21",
+	"releaseCode" : "VOR008",
+	"duration" : "14:11",
+	"downloadLink" : "http://www.vortechmusic.com/impenitence",
+	"studioReportId" : "11",
+	"recordingStartDate" : "2013-06-08",
+	"recordingEndDate" : "2013-07-22",
+	"isOnCD" : false,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Corroded",
+			"trackDuration" : "03:14",
+			"trackLyricsFile" : "impenitence.php#1",
+			"trackTabFile" : "Vortech - Corroded.gp5"
+		},
+		{ 
+			"trackTitle" : "The Observers",
+			"trackDuration" : "04:15",
+			"trackLyricsFile" : "impenitence.php#2",
+			"trackTabFile" : "Vortech - The Observers.gp5"
+		},
+		{ 
+			"trackTitle" : "Devour the Being",
+			"trackDuration" : "03:12",
+			"trackLyricsFile" : "impenitence.php#3",
+			"trackTabFile" : "Vortech - Devour the Being.gp5"
+		},
+		{ 
+			"trackTitle" : "Uncreation",
+			"trackDuration" : "03:26",
+			"trackLyricsFile" : "impenitence.php#4",
+			"trackTabFile" : "Vortech - Uncreation.gp5"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/impenitence-front" },
+		{ "back" : "artwork/impenitence-back" },
+		{ "inlay" : "artwork/impenitence-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/impenitence.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "The Occlusion",
+	"releaseDate" : "2014-02-06",
+	"releaseCode" : "VOR007",
+	"duration" : "57:38",
+	"downloadLink" : "http://www.vortechmusic.com/theocclusion",
+	"studioReportId" : "10",
+	"recordingStartDate" : "2013-06-08",
+	"recordingEndDate" : "2013-07-22",
+	"isOnCD" : false,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Forgotten World",
+			"trackDuration" : "04:51",
+			"trackLyricsFile" : "occlusion.php#1",
+			"trackTabFile" : "Vortech - Forgotten World.gp5"
+		},
+		{ 
+			"trackTitle" : "Mechanicide",
+			"trackDuration" : "03:26",
+			"trackLyricsFile" : "occlusion.php#2",
+			"trackTabFile" : "Vortech - Mechanicide.gp5"
+		},
+		{ 
+			"trackTitle" : "The Origin",
+			"trackDuration" : "04:45",
+			"trackLyricsFile" : "occlusion.php#3",
+			"trackTabFile" : "Vortech - The Origin.gp5"
+		},
+		{ 
+			"trackTitle" : "Controlled",
+			"trackDuration" : "03:23",
+			"trackLyricsFile" : "occlusion.php#4",
+			"trackTabFile" : "Vortech - Controlled.gp5"
+		},
+		{ 
+			"trackTitle" : "MTTF",
+			"trackDuration" : "04:25",
+			"trackLyricsFile" : "occlusion.php#5",
+			"trackTabFile" : "Vortech - MTTF.gp5"
+		},
+		{ 
+			"trackTitle" : "Sparks of Ignition",
+			"trackDuration" : "04:36",
+			"trackLyricsFile" : "occlusion.php#6",
+			"trackTabFile" : "Vortech - Sparks of Ignition.gp5"
+		},
+		{ 
+			"trackTitle" : "Flatlined",
+			"trackDuration" : "04:08",
+			"trackLyricsFile" : "occlusion.php#7",
+			"trackTabFile" : "Vortech - Flatlined.gp5"
+		},
+		{ 
+			"trackTitle" : "Confined",
+			"trackDuration" : "03:58",
+			"trackLyricsFile" : "occlusion.php#8",
+			"trackTabFile" : "Vortech - Confined.gp5"
+		},
+		{ 
+			"trackTitle" : "Beyond Tolerance",
+			"trackDuration" : "03:43",
+			"trackLyricsFile" : "occlusion.php#9",
+			"trackTabFile" : "Vortech - Beyond Tolerance.gp5"
+		},
+		{ 
+			"trackTitle" : "Glitch of Creation",
+			"trackDuration" : "03:44",
+			"trackLyricsFile" : "occlusion.php#10",
+			"trackTabFile" : "Vortech - Glitch of Creation.gp5"
+		},
+		{ 
+			"trackTitle" : "Below Radar",
+			"trackDuration" : "03:38",
+			"trackLyricsFile" : "occlusion.php#11",
+			"trackTabFile" : "Vortech - Below Radar.gp5"
+		},
+		{ 
+			"trackTitle" : "Genetic Design",
+			"trackDuration" : "04:20",
+			"trackLyricsFile" : "occlusion.php#12",
+			"trackTabFile" : "Vortech - Genetic Design.gp5"
+		},
+		{ 
+			"trackTitle" : "Legacy System",
+			"trackDuration" : "04:31",
+			"trackLyricsFile" : "occlusion.php#13",
+			"trackTabFile" : "Vortech - Legacy System.gp5"
+		},
+		{ 
+			"trackTitle" : "Evolutionary Project (Debased World Order Remix)",
+			"trackDuration" : "04:09",
+			"trackLyricsFile" : "occlusion.php#14",
+			"trackTabFile" : "Vortech - Evolutionary Project (Remix).gp5"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/occlusion-front" },
+		{ "back" : "artwork/occlusion-back" },
+		{ "inlay" : "artwork/occlusion-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/occlusion.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "Devoid of Life",
+	"releaseDate" : "2012-04-07",
+	"releaseCode" : "VOR006",
+	"duration" : "67:55",
+	"downloadLink" : "http://www.vortechmusic.com/devoidoflife",
+	"studioReportId" : "9",
+	"recordingStartDate" : "2010-05-26",
+	"recordingEndDate" : "2012-04-01",
+	"isOnCD" : true,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "The Black Rite",
+			"trackDuration" : "04:06",
+			"trackLyricsFile" : "devoid.php#1",
+			"trackTabFile" : "Vortech - The Black Rite.gp5"
+		},
+		{ 
+			"trackTitle" : "Neurovirus",
+			"trackDuration" : "03:22",
+			"trackLyricsFile" : "devoid.php#2",
+			"trackTabFile" : "Vortech - Neurovirus.gp5"
+		},
+		{ 
+			"trackTitle" : "Shattered Cities",
+			"trackDuration" : "03:56",
+			"trackLyricsFile" : "devoid.php#3",
+			"trackTabFile" : "Vortech - Shattered Cities.gp5"
+		},
+		{ 
+			"trackTitle" : "Demon In the Circuitry",
+			"trackDuration" : "04:06",
+			"trackLyricsFile" : "devoid.php#4",
+			"trackTabFile" : "Vortech - Demon In the Circuitry.gp5"
+		},
+		{ 
+			"trackTitle" : "Frozen Machine",
+			"trackDuration" : "04:00",
+			"trackLyricsFile" : "devoid.php#5",
+			"trackTabFile" : "Vortech - Frozen Machine.gp5"
+		},
+		{ 
+			"trackTitle" : "Lost",
+			"trackDuration" : "03:57",
+			"trackLyricsFile" : "devoid.php#6",
+			"trackTabFile" : "Vortech - Lost.gp5"
+		},
+		{ 
+			"trackTitle" : "Unveiling the Future",
+			"trackDuration" : "03:36",
+			"trackLyricsFile" : "devoid.php#7",
+			"trackTabFile" : "Vortech - Unveiling the Future.gp5"
+		},
+		{ 
+			"trackTitle" : "The Apocalypse",
+			"trackDuration" : "05:09",
+			"trackLyricsFile" : "devoid.php#8",
+			"trackTabFile" : "Vortech - The Apocalypse.gp5"
+		},
+		{ 
+			"trackTitle" : "Grains of Reality",
+			"trackDuration" : "05:44",
+			"trackLyricsFile" : "devoid.php#9",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "The New Creations (Live)",
+			"trackDuration" : "04:33",
+			"trackLyricsFile" : "devoid.php#10",
+			"trackTabFile" : "Vortech - The New Creations.gp5"
+		},
+		{ 
+			"trackTitle" : "The Institution (Live)",
+			"trackDuration" : "02:56",
+			"trackLyricsFile" : "devoid.php#11",
+			"trackTabFile" : "Vortech - The Institution.gp4"
+		},
+		{ 
+			"trackTitle" : "Shattered Cities (Live)",
+			"trackDuration" : "04:02",
+			"trackLyricsFile" : "devoid.php#12",
+			"trackTabFile" : "Vortech - Shattered Cities.gp5"
+		},
+		{ 
+			"trackTitle" : "The Core (Live)",
+			"trackDuration" : "02:26",
+			"trackLyricsFile" : "devoid.php#13",
+			"trackTabFile" : "Vortech - The Core.gp4"
+		},
+		{ 
+			"trackTitle" : "Evolutionary Project (Live)",
+			"trackDuration" : "04:56",
+			"trackLyricsFile" : "devoid.php#14",
+			"trackTabFile" : "Vortech - Evolutionary Project.gp4"
+		},
+		{ 
+			"trackTitle" : "Neurovirus (Lost Control Remix)",
+			"trackDuration" : "03:33",
+			"trackLyricsFile" : "devoid.php#15",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "Demon In the Circuitry (Demo)",
+			"trackDuration" : "03:37",
+			"trackLyricsFile" : "devoid.php#16",
+			"trackTabFile" : "Vortech - Demon In the Circuitry.gp5"
+		},
+		{ 
+			"trackTitle" : "Shattered Cities (Demo)",
+			"trackDuration" : "03:56",
+			"trackLyricsFile" : "devoid.php#17",
+			"trackTabFile" : "Vortech - Shattered Cities.gp5"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/devoid-front" },
+		{ "back" : "artwork/devoid-back" },
+		{ "inlay" : "artwork/devoid-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/devoid.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "Infocalypse (EP)",
+	"releaseDate" : "2010-12-19",
+	"releaseCode" : "VOR005",
+	"duration" : "14:50",
+	"downloadLink" : "http://www.vortechmusic.com/infocalypse",
+	"studioReportId" : "8",
+	"recordingStartDate" : "2010-05-26",
+	"recordingEndDate" : "2010-12-15",
+	"isOnCD" : false,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Chaos Dimension",
+			"trackDuration" : "03:24",
+			"trackLyricsFile" : "info.php#1",
+			"trackTabFile" : "Vortech - Chaos Dimension.gp5"
+		},
+		{ 
+			"trackTitle" : "Charcoal Earth",
+			"trackDuration" : "03:11",
+			"trackLyricsFile" : "info.php#2",
+			"trackTabFile" : "Vortech - Charcoal Earth.gp5"
+		},
+		{ 
+			"trackTitle" : "Pyre of Souls",
+			"trackDuration" : "04:24",
+			"trackLyricsFile" : "info.php#3",
+			"trackTabFile" : "Vortech - Pyre of Souls.gp5"
+		},
+		{ 
+			"trackTitle" : "Wire Synapse",
+			"trackDuration" : "03:52",
+			"trackLyricsFile" : "info.php#4",
+			"trackTabFile" : "Vortech - Wire Synapse.gp5"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/info-front" },
+		{ "back" : "artwork/info-back" },
+		{ "inlay" : "artwork/info-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/info.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "Posthumanism",
+	"releaseDate" : "2009-04-16",
+	"releaseCode" : "VOR004",
+	"duration" : "47:06",
+	"downloadLink" : "http://www.vortechmusic.com/posthumanism",
+	"studioReportId" : "7",
+	"recordingStartDate" : "2009-01-06",
+	"recordingEndDate" : "2009-04-16",
+	"isOnCD" : false,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Posthumanism",
+			"trackDuration" : "03:25",
+			"trackLyricsFile" : "post.php#1",
+			"trackTabFile" : "Vortech - Posthumanism.gp5"
+		},
+		{ 
+			"trackTitle" : "Xenomorphosis",
+			"trackDuration" : "04:13",
+			"trackLyricsFile" : "post.php#2",
+			"trackTabFile" : "Vortech - Xenomorphosis.gp5"
+		},
+		{ 
+			"trackTitle" : "Destined to Fall",
+			"trackDuration" : "03:55",
+			"trackLyricsFile" : "post.php#3",
+			"trackTabFile" : "Vortech - Destined to Fall.gp5"
+		},
+		{ 
+			"trackTitle" : "Humanity: Static",
+			"trackDuration" : "05:42",
+			"trackLyricsFile" : "post.php#4",
+			"trackTabFile" : "Vortech - Humanity Static.gp5"
+		},
+		{ 
+			"trackTitle" : "The Wolves",
+			"trackDuration" : "04:24",
+			"trackLyricsFile" : "post.php#5",
+			"trackTabFile" : "Vortech - The Wolves.gp5"
+		},
+		{ 
+			"trackTitle" : "The New Creations",
+			"trackDuration" : "04:28",
+			"trackLyricsFile" : "post.php#6",
+			"trackTabFile" : "Vortech - The New Creations.gp5"
+		},
+		{ 
+			"trackTitle" : "Lifeline",
+			"trackDuration" : "04:52",
+			"trackLyricsFile" : "post.php#7",
+			"trackTabFile" : "Vortech - Lifeline.gp5"
+		},
+		{ 
+			"trackTitle" : "Afterworld",
+			"trackDuration" : "03:46",
+			"trackLyricsFile" : "post.php#8",
+			"trackTabFile" : "Vortech - Afterworld.gp5"
+		},
+		{ 
+			"trackTitle" : "False Salvation",
+			"trackDuration" : "05:21",
+			"trackLyricsFile" : "post.php#9",
+			"trackTabFile" : "Vortech - False Salvation.gp5"
+		},
+		{ 
+			"trackTitle" : "Transcendence",
+			"trackDuration" : "04:00",
+			"trackLyricsFile" : "post.php#10",
+			"trackTabFile" : "Vortech - Transcendence.gp5"
+		},
+		{ 
+			"trackTitle" : "Shedding the Flesh",
+			"trackDuration" : "03:00",
+			"trackLyricsFile" : "post.php#11",
+			"trackTabFile" : "Vortech - Shedding the Flesh.gp5"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/post-front" },
+		{ "back" : "artwork/post-back" },
+		{ "inlay" : "artwork/post-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/post.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "Deep Beneath",
+	"releaseDate" : "2008-03-06",
+	"releaseCode" : "VOR003",
+	"duration" : "42:35",
+	"downloadLink" : "http://www.vortechmusic.com/deepbeneath",
+	"studioReportId" : "6",
+	"recordingStartDate" : "2008-01-06",
+	"recordingEndDate" : "2008-03-05",
+	"isOnCD" : true,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "The Awakening",
+			"trackDuration" : "03:49",
+			"trackLyricsFile" : "deep.php#1",
+			"trackTabFile" : "Vortech - The Awakening.gp4"
+		},
+		{ 
+			"trackTitle" : "Biodroid Legions",
+			"trackDuration" : "04:32",
+			"trackLyricsFile" : "deep.php#2",
+			"trackTabFile" : "Vortech - Biodroid Legions.gp4"
+		},
+		{ 
+			"trackTitle" : "The Undying Storm",
+			"trackDuration" : "04:24",
+			"trackLyricsFile" : "deep.php#3",
+			"trackTabFile" : "Vortech - The Undying Storm.gp4"
+		},
+		{ 
+			"trackTitle" : "Shadow Shapes",
+			"trackDuration" : "04:02",
+			"trackLyricsFile" : "deep.php#4",
+			"trackTabFile" : "Vortech - Shadow Shapes.gp4"
+		},
+		{ 
+			"trackTitle" : "Retribution",
+			"trackDuration" : "03:49",
+			"trackLyricsFile" : "deep.php#5",
+			"trackTabFile" : "Vortech - Retribution.gp4"
+		},
+		{ 
+			"trackTitle" : "Bewildered",
+			"trackDuration" : "03:23",
+			"trackLyricsFile" : "deep.php#6",
+			"trackTabFile" : "Vortech - Bewildered.gp4"
+		},
+		{ 
+			"trackTitle" : "Deep Beneath",
+			"trackDuration" : "06:23",
+			"trackLyricsFile" : "deep.php#7",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "Subjugation",
+			"trackDuration" : "03:13",
+			"trackLyricsFile" : "deep.php#8",
+			"trackTabFile" : "Vortech - Subjugation.gp4"
+		},
+		{ 
+			"trackTitle" : "Exile Within",
+			"trackDuration" : "04:28",
+			"trackLyricsFile" : "deep.php#9",
+			"trackTabFile" : "Vortech - Exile Within.gp4"
+		},
+		{ 
+			"trackTitle" : "So They Rise",
+			"trackDuration" : "04:32",
+			"trackLyricsFile" : "deep.php#10",
+			"trackTabFile" : "Vortech - So They Rise.gp4"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/deep-front" },
+		{ "back" : "artwork/deep-back" },
+		{ "inlay" : "artwork/deep-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/deep.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "Wasteland",
+	"releaseDate" : "2007-09-23",
+	"releaseCode" : "VOR002",
+	"duration" : "37:34",
+	"downloadLink" : "http://www.vortechmusic.com/wasteland",
+	"studioReportId" : "5",
+	"recordingStartDate" : "2006-12-01",
+	"recordingEndDate" : "2007-09-20",
+	"isOnCD" : true,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "The Core",
+			"trackDuration" : "02:26",
+			"trackLyricsFile" : "wasteland.php#1",
+			"trackTabFile" : "Vortech - The Core.gp4"
+		},
+		{ 
+			"trackTitle" : "Evolutionary Project",
+			"trackDuration" : "04:59",
+			"trackLyricsFile" : "wasteland.php#2",
+			"trackTabFile" : "Vortech - Evolutionary Project.gp4"
+		},
+		{ 
+			"trackTitle" : "Their Contract",
+			"trackDuration" : "03:44",
+			"trackLyricsFile" : "wasteland.php#3",
+			"trackTabFile" : "Vortech - Their Contract.gp4"
+		},
+		{ 
+			"trackTitle" : "Instigate Hostile Reaction",
+			"trackDuration" : "04:52",
+			"trackLyricsFile" : "wasteland.php#4",
+			"trackTabFile" : "Vortech - Instigate Hostile Reaction.gp4"
+		},
+		{ 
+			"trackTitle" : "Impulse",
+			"trackDuration" : "03:57",
+			"trackLyricsFile" : "wasteland.php#5",
+			"trackTabFile" : "Vortech - Impulse.gp4"
+		},
+		{ 
+			"trackTitle" : "Perdition",
+			"trackDuration" : "02:51",
+			"trackLyricsFile" : "wasteland.php#6",
+			"trackTabFile" : "Vortech - Perdition.gp4"
+		},
+		{ 
+			"trackTitle" : "The Silence",
+			"trackDuration" : "03:43",
+			"trackLyricsFile" : "wasteland.php#7",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "Winds of Contamination",
+			"trackDuration" : "03:07",
+			"trackLyricsFile" : "wasteland.php#8",
+			"trackTabFile" : "Vortech - Winds of Contamination.gp5"
+		},
+		{ 
+			"trackTitle" : "Radiant Storm",
+			"trackDuration" : "03:19",
+			"trackLyricsFile" : "wasteland.php#9",
+			"trackTabFile" : "Vortech - Radiant Storm.gp4"
+		},
+		{ 
+			"trackTitle" : "Wasteland Roamers",
+			"trackDuration" : "04:36",
+			"trackLyricsFile" : "wasteland.php#10",
+			"trackTabFile" : ""
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/wasteland-front" },
+		{ "back" : "artwork/wasteland-back" },
+		{ "inlay" : "artwork/wasteland-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/wasteland.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Vortech",
+	"album" : "Conclusion",
+	"releaseDate" : "2006-04-11",
+	"releaseCode" : "VOR001",
+	"duration" : "32:42",
+	"downloadLink" : "http://www.vortechmusic.com/conclusion",
+	"studioReportId" : "3",
+	"recordingStartDate" : "2005-10-01",
+	"recordingEndDate" : "2006-04-11",
+	"isOnCD" : true,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "The Institution",
+			"trackDuration" : "02:41",
+			"trackLyricsFile" : "conclusion.php#1",
+			"trackTabFile" : "Vortech - The Institution.gp4"
+		},
+		{ 
+			"trackTitle" : "Terra Ultimatum",
+			"trackDuration" : "02:49",
+			"trackLyricsFile" : "conclusion.php#2",
+			"trackTabFile" : "Vortech - Terra Ultimatum.gp4"
+		},
+		{ 
+			"trackTitle" : "Crescent Moon",
+			"trackDuration" : "03:20",
+			"trackLyricsFile" : "conclusion.php#3",
+			"trackTabFile" : "Vortech - Crescent Moon.gp4"
+		},
+		{ 
+			"trackTitle" : "Mind Awakening",
+			"trackDuration" : "03:59",
+			"trackLyricsFile" : "conclusion.php#4",
+			"trackTabFile" : "Vortech - Mind Awakening.gp4"
+		},
+		{ 
+			"trackTitle" : "Sentinels of Pain",
+			"trackDuration" : "03:19",
+			"trackLyricsFile" : "conclusion.php#5",
+			"trackTabFile" : "Vortech - Sentinels of Pain.gp4"
+		},
+		{ 
+			"trackTitle" : "Apoapsis Mentis",
+			"trackDuration" : "03:55",
+			"trackLyricsFile" : "conclusion.php#6",
+			"trackTabFile" : ""
+		},
+		{ 
+			"trackTitle" : "Judgement of the Amenti",
+			"trackDuration" : "03:16",
+			"trackLyricsFile" : "conclusion.php#7",
+			"trackTabFile" : "Vortech - Judgement of the Amenti.gp4"
+		},
+		{ 
+			"trackTitle" : "Lunar Eclipse",
+			"trackDuration" : "03:07",
+			"trackLyricsFile" : "conclusion.php#8",
+			"trackTabFile" : "Vortech - Lunar Eclipse.gp4"
+		},
+		{ 
+			"trackTitle" : "Sycophant Gods",
+			"trackDuration" : "02:36",
+			"trackLyricsFile" : "conclusion.php#9",
+			"trackTabFile" : "Vortech - Sycophant Gods.gp4"
+		},
+		{ 
+			"trackTitle" : "End Game",
+			"trackDuration" : "03:39",
+			"trackLyricsFile" : "conclusion.php#10",
+			"trackTabFile" : ""
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/conclusion-front" },
+		{ "back" : "artwork/conclusion-back" },
+		{ "inlay" : "artwork/conclusion-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/conclusion.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Sound Ogre",
+	"album" : "Asphyxiation (EP)",
+	"releaseDate" : "2005-03-14",
+	"releaseCode" : "OGR02",
+	"duration" : "19:33",
+	"downloadLink" : "http://www.vortechmusic.com/asphyxiation",
+	"studioReportId" : "2",
+	"recordingStartDate" : "2005-01-05",
+	"recordingEndDate" : "2005-03-12",
+	"isOnCD" : false,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Humid Skies of Darkness",
+			"trackDuration" : "03:17",
+			"trackLyricsFile" : "asphyx.php#1",
+			"trackTabFile" : "Sound Ogre - Humid Skies of Darkness.gp5"
+		},
+		{ 
+			"trackTitle" : "Asphyxiation",
+			"trackDuration" : "02:43",
+			"trackLyricsFile" : "asphyx.php#2",
+			"trackTabFile" : "Sound Ogre - Asphyxiation.gp5"
+		},
+		{ 
+			"trackTitle" : "Gnawed by the Otherworldly Vex",
+			"trackDuration" : "03:04",
+			"trackLyricsFile" : "asphyx.php#3",
+			"trackTabFile" : "Sound Ogre - Gnawed by the Otherworldly Vex.gp5"
+		},
+		{ 
+			"trackTitle" : "The Variable of Irresolution",
+			"trackDuration" : "02:51",
+			"trackLyricsFile" : "asphyx.php#4",
+			"trackTabFile" : "Sound Ogre - The Variable of Irresolution.gp5"
+		},
+		{ 
+			"trackTitle" : "Visions Macabre",
+			"trackDuration" : "02:53",
+			"trackLyricsFile" : "asphyx.php#5",
+			"trackTabFile" : "Sound Ogre - Visions Macabre.gp5"
+		},
+		{ 
+			"trackTitle" : "Spiritual Entity",
+			"trackDuration" : "04:45",
+			"trackLyricsFile" : "asphyx.php#6",
+			"trackTabFile" : "Sound Ogre - Spiritual Entity.gp5"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/asphyx-front" },
+		{ "back" : "artwork/asphyx-back" },
+		{ "inlay" : "artwork/asphyx-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/asphyx.php"
+},
+{
+	"canShow" : true,
+	"artist" : "Sound Ogre",
+	"album" : "Extinct (EP)",
+	"releaseDate" : "2004-10-10",
+	"releaseCode" : "OGR01",
+	"duration" : "19:29",
+	"downloadLink" : "http://www.vortechmusic.com/extinct",
+	"studioReportId" : "1",
+	"recordingStartDate" : "2004-09-01",
+	"recordingEndDate" : "2004-10-10",
+	"isOnCD" : false,
+	"tracklist" : [
+		{ 
+			"trackTitle" : "Life",
+			"trackDuration" : "04:28",
+			"trackLyricsFile" : "extinct.php#1",
+			"trackTabFile" : "Sound Ogre - Life.gp5"
+		},
+		{ 
+			"trackTitle" : "Endless Stairs",
+			"trackDuration" : "04:35",
+			"trackLyricsFile" : "extinct.php#2",
+			"trackTabFile" : "Sound Ogre - Endless Stairs.txt"
+		},
+		{ 
+			"trackTitle" : "Evil Never Dies",
+			"trackDuration" : "03:35",
+			"trackLyricsFile" : "extinct.php#3",
+			"trackTabFile" : "Sound Ogre - Evil Never Dies.txt"
+		},
+		{ 
+			"trackTitle" : "The Sentence Is Death",
+			"trackDuration" : "05:19",
+			"trackLyricsFile" : "extinct.php#4",
+			"trackTabFile" : "Sound Ogre - The Sentence Is Death.txt"
+		},
+		{ 
+			"trackTitle" : "Misery",
+			"trackDuration" : "01:32",
+			"trackLyricsFile" : "extinct.php#5",
+			"trackTabFile" : "Sound Ogre - Misery.txt"
+		}
+	],
+	"artwork" : [
+		{ "front" : "artwork/extinct-front" },
+		{ "back" : "artwork/extinct-back" },
+		{ "inlay" : "artwork/extinct-inlay" },
+		{ "thumb" : "-t" }
+	],
+	"creditsFile" : "credits/extinct.php"
+}]

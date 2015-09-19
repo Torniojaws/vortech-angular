@@ -1,0 +1,30 @@
+<div ng-controller="vortechReleasesApp">
+	<article ng-repeat="album in albums" ng-show="album.canShow"> <!-- Albums can be hidden with canShow=false -->
+		<header class="albumTitle">
+			<h2>{{ album.album }}</h2>
+			<h3>{{ album.releaseDate }}</h3>
+		</header>
+		<section class="albumArtwork">
+			<!-- Index 0 in artwork means the first item of the array, like normal -->
+			<img ng-src="contents/{{ album.artwork[0].front }}.jpg" alt="{{ album.album }}" class="floatLeft albumBorder extraMargin" />
+		</section>
+		<section class="albumTracks">
+			<ol>
+				<li ng-repeat="track in album.tracklist">
+					{{ track.trackTitle }} ({{ track.trackDuration }})
+					<!-- Only show tabulature when it exists -->
+					<span ng-show="track.trackTabFile.length">- <a ng-href="contents/tab/{{ track.trackTabFile }}">Tab</a></span>
+				</li>
+			</ol>
+		</section>
+		<section class="albumNotes">
+			<a ng-href="{{ album.downloadLink }}">Download</a> (0 downloads) | 
+			<a ng-href="#releases/{{ album.releaseCode }}/studio">Studio Report</a> | 
+			<a ng-href="#releases/{{ album.releaseCode }}/lyrics/">Lyrics</a> | 
+			Duration: {{ album.duration }}
+		</section>
+		<section class="albumCredits">
+			<div ng-include="'contents/{{ album.releaseCode }}/credits/'"></div>
+		</section>
+	</article>
+</div>

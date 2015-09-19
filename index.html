@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-app="vortechApp">
+<head>
+	<title>VORTECH - Finnish Industrial Death Metal</title>
+	<meta charset="UTF-8" />
+	<link href="res/vortech.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+</head>
+<body ng-controller="vortechMainApp">
+	<header>
+		<div class="siteLogo">
+			<a href="/"><img src="res/logo.png" alt="Index" /></a>
+		</div>
+		<h2 class="logoText">Industrial Death Metal since 2000</h2>
+		<nav class="siteMenu">
+			<span ng-repeat="menulink in menulinks">
+				<a ng-href="{{ menulink.url }}" class="menulink">{{ menulink.text | uppercase }}</a>
+				<span ng-if="!$last">|</span>
+			</span>
+		</nav>
+	</header>
+	<div class="main pageContainer">
+		<section class="pageLeft">
+			<nav ng-repeat="external in externals">
+				<a ng-href="{{ external.url }}" class="externalLink"><img ng-src="{{ external.img }}" alt="{{ external.text }}" /></a>
+			</nav>
+		</section>
+		<section class="pageMiddle">
+			<p>Middle statistics</p>
+		</section>
+		<section class="pageMain">
+			<div ng-view class="pageMainBox">
+				<p>Most of the text will be here</p>
+			</div>
+		</section>
+		<div class="clear"></div>
+	</div>
+	<footer class="pageFooter">
+		<p>Copyright &copy; Vortech {{ date | date:'yyyy' }}</p>
+		<p>42 visitors</p>
+	</footer>
+	
+	<!-- Modules -->
+	
+	<!-- Controllers -->
+	<script src="js/controllers.js"></script>
+</body>
+</html>

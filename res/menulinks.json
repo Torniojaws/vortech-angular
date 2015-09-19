@@ -1,0 +1,32 @@
+[{
+	"url": "#news",
+	"text": "News"
+},
+{
+	"url": "#releases",
+	"text": "Releases"
+},
+{
+	"url": "#biography",
+	"text": "Biography"
+},
+{
+	"url": "#photos",
+	"text": "Photos"
+},
+{
+	"url": "#videos",
+	"text": "Videos"
+},
+{
+	"url": "#shop",
+	"text": "Shop"
+},
+{
+	"url": "#guestbook",
+	"text": "Guestbook"
+},
+{
+	"url": "#live",
+	"text": "Live"
+}]
