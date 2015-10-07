@@ -1,4 +1,4 @@
-var vortechApp = angular.module('vortechApp', ['ngRoute']);
+var vortechApp = angular.module('vortechApp', ['ngRoute', 'ngDialog']);
 
 vortechApp.config(function($routeProvider) {
 	$routeProvider
@@ -56,4 +56,23 @@ vortechApp.filter('reverse', function() {
 	return function(items) {
 		return items.slice().reverse();
 	};
+});
+
+vortechApp.controller('vortechPhotoApp', function($scope, ngDialog) {
+	$scope.showModal = function() {
+		ngDialog.open({
+			template: 'views/photosModal.html',
+			className: 'ngdialog-theme-plain',
+			showClose: true,
+			scope: $scope
+		});
+	};
+});
+
+vortechApp.controller('vortechDatabaseApp', function($scope, $http) {
+	$scope.testDatabase = [];
+	$http.get('res/db/')
+	.then(function(resTest) {
+		$scope.testdb = resTest.data;
+	});
 });
