@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app="vortechApp">
+<html lang="en" ng-app="vortechApp"> <!-- load ng-app in html to change title in page -->
 <head>
 	<title>VORTECH - Finnish Industrial Death Metal</title>
 	<meta charset="UTF-8" />
-	<link href="res/vortech.css" rel="stylesheet" type="text/css" />
-	<link href="res/ngDialog.min.css" rel="stylesheet" type="text/css" />
-	<link href="res/ngDialog-theme-plain.css" rel="stylesheet" type="text/css" />
+	<link href="app/layout/vortech.css" rel="stylesheet" type="text/css" />
+	<link href="app/layout/ngDialog.min.css" rel="stylesheet" type="text/css" />
+	<link href="app/layout/ngDialog-theme-plain.css" rel="stylesheet" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
 </head>
-<body ng-controller="vortechMainApp">
+<body ng-controller="layoutCtrl">
 	<header>
 		<div class="siteLogo">
-			<a href="/"><img src="res/logo.png" alt="Index" /></a>
+			<a href="/"><img src="app/layout/images/logo.png" alt="Index" /></a>
 		</div>
 		<h2 class="logoText">Industrial Death Metal since 2000</h2>
 		<nav class="siteMenu">
@@ -30,10 +30,12 @@
 		</section>
 		<section class="pageMiddle">
 			<p>Middle statistics</p>
+			<p class="todo">TODO: Toteutus, top albumit ja pikkusoitin kuten vanhassa</p>
 		</section>
 		<section class="pageMain">
 			<div ng-view class="pageMainBox">
 				<p>Most of the text will be here</p>
+				<p class="todo">TODO: Saako tähän uutiset?</p>
 			</div>
 		</section>
 		<div class="clear"></div>
@@ -41,12 +43,26 @@
 	<footer class="pageFooter">
 		<p>Copyright &copy; Vortech {{ date | date:'yyyy' }}</p>
 		<p>42 visitors</p>
+		<p class="todo">TODO: Laskuri kantaan</p>
 	</footer>
 	
-	<!-- Modules -->
+	<!-- Modules and router -->
+	<script src="app/app.js"></script>
 	
 	<!-- Controllers -->
-	<script src="js/controllers.js"></script>
-	<script src="js/ngDialog.min.js"></script>
+	<script src="app/layout/controller.js"></script>
+	<script src="app/news/controller.js"></script>
+	<script src="app/biography/controller.js"></script>
+	<script src="app/photos/controller.js"></script>
+	<script src="app/videos/controller.js"></script>
+	<script src="app/shop/controller.js"></script>
+	<script src="app/guestbook/controller.js"></script>
+	<script src="app/live/controller.js"></script>
+	<script src="app/admin/controller.js"></script>
+	
+	<!-- <script src="app/photos/controller.js"></script> -->
+
+	<!-- Plugins -->
+	<script src="libs/ngDialog.min.js"></script> <!-- Modal windows -->
 </body>
 </html>

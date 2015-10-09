@@ -1,0 +1,40 @@
+[{
+	"url": "https://www.facebook.com/vortechmetal",
+	"img": "app/layout/images/external/fb2.jpg",
+	"text": "Facebook"
+},
+{
+	"url": "https://soundcloud.com/vortechmetal",
+	"img": "app/layout/images/external/sc2.jpg",
+	"text": "SoundCloud"
+},
+{
+	"url": "http://vortech.bandcamp.com/",
+	"img": "app/layout/images/external/bc2.jpg",
+	"text": "BandCamp"
+},
+{
+	"url": "http://www.last.fm/music/Vortech",
+	"img": "app/layout/images/external/lf2.jpg",
+	"text": "Last.FM"
+},
+{
+	"url": "https://twitter.com/VortechMetal",
+	"img": "app/layout/images/external/tw2.jpg",
+	"text": "Twitter"
+},
+{
+	"url": "http://www.crescentcymbals.com/",
+	"img": "app/layout/images/external/cc2.jpg",
+	"text": "Crescent Cymbals"
+},
+{
+	"url": "http://www.remo.com/",
+	"img": "app/layout/images/external/re2.jpg",
+	"text": "Remo"
+},
+{
+	"url": "http://www.ambdrums.com/",
+	"img": "app/layout/images/external/am2.jpg",
+	"text": "AMB Drums"
+}]
