@@ -12,6 +12,15 @@ angular.module('vortechApp').controller('layoutCtrl', function($scope, $http) {
 	});
 	
 	$scope.date = new Date();
+	
+	$scope.visitors = 0;
+	$http.get('api/api.php/visitors?test=testing123')
+	.then(function(resVisitors) {
+		$scope.visitors = resVisitors.data[0];
+	});
+	
+	// Update visitor count
+	$http.put('api/api.php/visitors?test=testing123');
 });
 
 // Todo: siirrä http serviceen

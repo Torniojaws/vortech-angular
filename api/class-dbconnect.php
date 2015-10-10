@@ -30,6 +30,26 @@
 			return mysqli_query($this->conn, $sql);
 		}
 		
+		public function getRow($id, $table) {
+			mysqli_select_db($this->conn, $this->db) or die(mysqli_error($this->conn));
+			$sql = "SELECT * FROM ";
+			$sql .= $table;
+			$sql .= " WHERE id = " . $id;
+			$sql .= " LIMIT 1";
+			return mysqli_query($this->conn, $sql);
+		}
+		
+		public function updateVisitorCount() {
+			mysqli_select_db($this->conn, $this->db) or die(mysqli_error($this->conn));
+			$sql = "UPDATE visitors SET count = count + 1";
+			$result = mysqli_query($this->conn, $sql);
+			if($result) {
+				return 0;
+			} else {
+				die("Could not update!");
+			}
+		}
+		
 		public function close() {
 			mysqli_close($this->conn);
 		}
