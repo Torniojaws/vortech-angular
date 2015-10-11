@@ -1,17 +1,17 @@
-<p class="todo">TODO: Toteutus kantaan ja ulkoasun säätö</p>
-<section class="liveShowlist" ng-controller="vortechLiveApp">
+<p class="todo">TODO: ulkoasun säätö</p>
+<section class="liveShowlist">
 	<header class="liveShowHeader newsHeader">
 		<div class="liveShowDate">Date</div>
 		<div class="liveShowPlace">Location</div>
 		<div class="liveShowVenue">Venue</div>
 		<div class="liveShowBands">Other bands</div>
 	</header>
-	<article ng-repeat="show in liveshows | reverse">
+	<article ng-repeat="show in liveshows.slice().reverse()">
 		<div class="liveShowDate">{{ show.date | date : 'yyyy, MMM d' }}</div>
 		<div class="liveShowPlace">{{ show.country }}, {{ show.city }}</div>
 		<div class="liveShowVenue">{{ show.venue }}</div>
 		<div class="liveShowBands">
-			<p ng-repeat="band in show.otherBands">{{ band.name }}</p>
+			<p>{{ show.others }}</p>
 		</div>
 		<div class="clear"></div>
 	</article>

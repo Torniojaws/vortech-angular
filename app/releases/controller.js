@@ -1,9 +1,17 @@
-// Will change to releases API from DB
-angular.module('vortechApp').controller('vortechReleasesApp', function($scope, $http) {
+angular.module('vortechApp').controller('releasesCtrl', function($scope, $http) {
 	$scope.albums = [];
-	$http.get('contents/releases.json')
+	$scope.tracklist = [];
+	
+	// Tracks for each album
+	$http.get('api/api.php/tracks?test=testing123')
+	.then(function(tracks) {
+		console.log(tracks.data);
+		$scope.tracklist = tracks.data;
+	});
+	
+	// Album data
+	$http.get('api/api.php/releases?test=testing123')
 	.then(function(releases) {
 		$scope.albums = releases.data;
-		console.log($scope.albums);
 	});
 });

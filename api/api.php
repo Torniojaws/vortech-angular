@@ -94,6 +94,10 @@
 			$results = $db->getRow($id, $table);
 		} else {
 			$results = $db->getRows($table);
+			// The tracks for a given release are in a separate table
+			if($table == 'releases') {
+				$reults[] = $db->getRows('tracks');
+			}
 		}
 		
 		// Return results in JSON format
