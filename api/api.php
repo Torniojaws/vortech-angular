@@ -14,6 +14,7 @@
 	// Simple validation
 	if(!$_SERVER['QUERY_STRING']) die('Missing token!');
 	list($key, $value) = explode("=", $_SERVER['QUERY_STRING']);
+	list($value) = explode("&", $value); // Remove additional parameters (eg. test=123&second=filter)
 	$userToken = $key . $value;
 	$salt = '$2a$07$usesomadasdsadsadsadasdasdasdsadesillystringfors';
 	$digest = crypt('testtesting123', $salt);
@@ -71,7 +72,8 @@
 			if($update == 0) {
 				echo "All a-ok!";
 			}
-		}		
+		}
+		
 		if(isset($id)) {
 			$db->updateRow($id, $table, $data);
 		} else {

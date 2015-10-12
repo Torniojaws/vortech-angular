@@ -1,2 +1,15 @@
 <p>Guestbook</p>
-<p class="todo">TODO: Toteutus kannasta ja login?</p>
+<p class="todo">TODO: login?</p>
+<section class="guestbookPosts">
+	<aside class="guestbookFilters">
+		<button type="submit" ng-click="filter($event);">2015</button>
+	</aside>
+	<article ng-repeat="post in posts">
+		<header class="guestbookPostHeader">
+			<b>{{ post.posted_by }}</b> | {{ post.date }}
+		</header>
+		<p class="indent">{{ post.message }}</p>
+		<p class="indent redText" ng-if="post.admin_comment.length">{{ post.admin_comment }}</p>
+		<hr />
+	</article>
+</section>

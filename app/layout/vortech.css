@@ -299,7 +299,21 @@ float: left;
 	margin-bottom: 8px;
 }
 
+/* Guestbook */
+.guestbookPostHeader {
+	text-align: left;
+	margin-bottom: 13px;
+}
+
 /* Helper classes */
+.indent {
+	padding-left: 13px;
+}
+
+.redText {
+	color: red;
+}
+
 .todo {
 	color: red;
 	padding: 12px;

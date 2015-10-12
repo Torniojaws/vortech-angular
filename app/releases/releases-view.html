@@ -12,7 +12,7 @@
 			<li ng-repeat="track in tracklist" ng-if="track.album_code == album.release_code">
 				{{ track.name }} ({{ track.duration }})
 				<!-- Only show tabulature when it exists -->
-				<span ng-show="track.tablature.length">- <a ng-href="contents/tab/{{ track.trackTabFile }}">Tab</a></span>
+				<span ng-show="track.tablature.length">- <a ng-href="contents/tabs/{{ track.tablature }}">Tab</a></span>
 			</li>
 		</ol>
 	</section>
