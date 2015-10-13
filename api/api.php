@@ -1,5 +1,5 @@
 <?php
-	header('Content-type: application/json');
+	header('Content-type: application/json; charset=utf-8');
 	require_once('class-dbconnect.php');
 	$dbparams = array(
 		'server' => 	'localhost', 
@@ -70,7 +70,7 @@
 		if($table == 'visitors') {
 			$update = $db->updateVisitorCount();
 			if($update == 0) {
-				echo "All a-ok!";
+				// All is well
 			}
 		}
 		

@@ -20,7 +20,14 @@ angular.module('vortechApp').controller('layoutCtrl', function($scope, $http) {
 	});
 	
 	// Update visitor count
-	$http.put('api/api.php/visitors?test=testing123');
+	$scope.count = 1;
+	$http.put('api/api.php/visitors?test=testing123', $scope.count)
+	.success(function(status) {
+		console.log(status);
+	})
+	.error(function(data, status, header, config) {
+		console.log(data, status, header, config);
+	});
 });
 
 // Todo: siirrä http serviceen

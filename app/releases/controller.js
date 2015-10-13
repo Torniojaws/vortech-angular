@@ -5,7 +5,6 @@ angular.module('vortechApp').controller('releasesCtrl', function($scope, $http) 
 	// Tracks for each album
 	$http.get('api/api.php/tracks?test=testing123')
 	.then(function(tracks) {
-		console.log(tracks.data);
 		$scope.tracklist = tracks.data;
 	});
 	

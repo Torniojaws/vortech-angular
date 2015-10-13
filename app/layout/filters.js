@@ -8,8 +8,6 @@ angular.module('vortechApp').filter('reverse', function() {
 // Convert MySQL datetime to Angular format
 angular.module('vortechApp').filter('dateToISO', function() {
 	return function(input) {
-		console.log("Funkkarin jälkeen = " + new Date(input).toISOString());
-		
-		return Date(input).toISOString();
+		return new Date(input).toISOString();
 	};
 });
