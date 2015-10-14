@@ -1,6 +1,6 @@
 angular.module('vortechApp').controller('newsCtrl', function($scope, $http) {
 	$news = [];
-	$http.get('contents/news.json')
+	$http.get('api/api.php/news?test=testing123')
 	.then(function(resNews) {
 		$scope.news = resNews.data;
 	});
