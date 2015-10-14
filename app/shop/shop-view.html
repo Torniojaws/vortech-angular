@@ -1,2 +1,38 @@
 <p>Shop</p>
 <p class="todo">TODO: Tähän toteutus. Linkit sun muut kannasta ja ulkoasu siistiksi. Jako Merch/CD/Digital?</p>
+
+<h2>CDs</h2>
+<section class="shopCD">
+	<article class="shopItem" ng-repeat="cd in albums">
+		<h3>{{ cd.title }}</h3>
+		<img ng-src="{{ cd.cover }}" alt="{{ cd.title }}" />
+		<p>{{ cd.description }}</p>
+		<div class="shopBuy">
+			{{ cd.buy }}
+		</div>
+	</article>
+</section>
+
+<h2>Digital releases</h2>
+<section class="shopDigi">
+	<article class="shopItem" ng-repeat="digi in digital">
+		<h3>{{ digi.title }}</h3>
+		<img ng-src="{{ digi.cover }}" alt="{{ digi.title }}" />
+		<p>{{ digi.description }}</p>
+		<div class="shopBuy">
+			{{ digi.buy }}
+		</div>
+	</article>
+</section>
+
+<h2>Merchandise</h2>
+<section class="shopMerch">
+	<article class="shopItem" ng-repeat="merch in merchandise">
+		<h3>{{ merch.title }}</h3>
+		<img ng-src="{{ merch.cover }}" alt="{{ merch.title }}" />
+		<p>{{ merch.description }}</p>
+		<div class="shopBuy">
+			{{ merch.buy }}
+		</div>
+	</article>
+</section>

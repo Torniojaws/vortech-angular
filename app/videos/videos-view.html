@@ -1,10 +1,22 @@
 <p>videos</p>
 <p class="todo">TODO: Tähän oikea toteutus Youtube/Vimeo. Jonkinlainen gallerianäkymä? Kannasta urlit</p>
 
-Database test:
+<section class="vidYoutube">
+	<article class="video" ng-repeat="yt in youtube">
+		<h2>{{ yt.title }}</h2>
+		<div>
+			<a ng-href="{{ yt.embed }}"><img ng-src="{{ yt.thumb }}" alt="{{ yt.title }}" /></a>
+			<p>{{ yt.description }}</p>
+		</div>
+	</article>
+</section>
 
-<section ng-controller="vortechDatabaseApp">
-	<div class="dbData" ng-repeat="row in testdb">
-		<p>{{ row.title }}</p>
-	</div>
+<section class="vidVimeo">
+	<article class="video" ng-repeat="vim in vimeo">
+		<h2>{{ vim.title }}</h2>
+		<div>
+			<a ng-href="{{ vim.embed }}"><img ng-src="{{ vim.thumb }}" alt="{{ vim.title }}" /></a>
+			<p>{{ vim.description }}</p>
+		</div>
+	</article>
 </section>
