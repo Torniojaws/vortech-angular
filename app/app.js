@@ -1,4 +1,4 @@
-angular.module('vortechApp', ['ngRoute', 'ngDialog'])
+angular.module('vortechApp', ['ngRoute', 'ngDialog', 'angularMoment'])
 .config(function($routeProvider) {
 	$routeProvider
 	.when('/news', {

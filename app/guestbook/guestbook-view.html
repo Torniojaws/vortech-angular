@@ -2,8 +2,8 @@
 <p class="todo">TODO: login? Ja viestien lisäys. Admin-kommentit. Filtteröinti 2 viime vuotta ja vanhemmat</p>
 <section class="guestbookPosts">
 	<aside class="guestbookFilters">
-		<button type="submit" ng-click="filter($event);">{{ date | date: 'yyyy' }}</button>
-		<button type="submit" ng-click="filter($event);">{{ date | date: 'yyyy' }}</button>
+		<button type="submit" ng-click="filter($event);">{{ this_year }}</button>
+		<button type="submit" ng-click="filter($event);">{{ last_year }}</button>
 		<button type="submit" ng-click="filter($event);">Older</button>
 	</aside>
 	<article ng-repeat="post in posts">
