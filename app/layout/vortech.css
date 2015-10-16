@@ -203,10 +203,6 @@ a.menulink:hover {
 	border-radius: 10px;
 }
 
-.clear {
-	clear: both;
-}
-
 .pageFooter {
 	width: 987px;
 	margin: 0 auto;
@@ -305,7 +301,16 @@ float: left;
 	margin-bottom: 13px;
 }
 
+/* Photos */
+.photolist {
+	float: left;
+}
+
 /* Helper classes */
+.clear {
+	clear: both;
+}
+
 .indent {
 	padding-left: 13px;
 }

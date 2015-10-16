@@ -1,12 +1,12 @@
 <section class="news">
-	<p class="todo">TODO: Tähän oikea toteutus tietokannasta. Mimmonen filtteri? Vuosi?</p>
 	<article ng-repeat="item in news" class="newsPost">
 		<header class="newsHeader">
 			<h2 class="newsTitleText">{{ item.title }}</h2>
-			<span class="newsDateText">{{ item.posted | date }}</span>
+			<span class="newsDateText">{{ item.date | date }}</span>
 		</header>
 		<section class="newsPostText">
 			<p>{{ item.text }}</p>
 		</section>
+		<aside class="indent redText">-- {{ item.poster }}</aside>
 	</article>
 </section>

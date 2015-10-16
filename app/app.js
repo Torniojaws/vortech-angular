@@ -3,7 +3,7 @@ angular.module('vortechApp', ['ngRoute', 'ngDialog', 'angularMoment'])
 	$routeProvider
 	.when('/news', {
 		templateUrl: 'app/news/news-view.html',
-		controller: 'newsCtrl'
+		controller: 'newspageCtrl'
 	})
 	.when('/releases', {
 		templateUrl: 'app/releases/releases-view.html',
