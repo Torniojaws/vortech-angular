@@ -301,6 +301,11 @@ a.menulink:hover {
 	padding-bottom: 34px;
 }
 
+.bioDuties {
+	color: #648fd0 !important;
+	font-style: italic;
+}
+
 /* Guestbook */
 .guestbookPostHeader {
 	text-align: left;

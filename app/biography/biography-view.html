@@ -4,10 +4,10 @@
 <p class="longText">Several of our songs have also appeared on national radio, and many online radios, with one radio appearance sparking a whole stream of interesting emails describing the sheer power the songs conveyed. Metal Observer has commented that while most bands look to the past for influence, Vortech only looks forward. That is a very good summary of the idea!</p>
 
 <h2>Band Members</h2>
+<p>Click on the picture to see further details of a member!</p>
 
-<p class="todo">TODO: modaali-ikkuna jäsenille</p>
 <div class="bioMember" ng-repeat="member in members" ng-if="member.active == true">
-	<img ng-src="{{ member.picture }}" alt="{{ member.description }}" /><br />
+	<img ng-src="{{ member.picture }}" alt="{{ member.description }}" ng-click="showModal( member.id )" /><br />
 	<b>{{ member.name }}</b> - {{ member.duties }}
 </div>
 <div class="clear"></div>
@@ -15,7 +15,7 @@
 <h2>Past Members and Guest Appearances</h2>
 
 <div class="bioMember" ng-repeat="member in members" ng-if="member.active == false">
-	<img ng-src="{{ member.picture }}" alt="{{ member.description }}" /> <br />
+	<img ng-src="{{ member.picture }}" alt="{{ member.description }}" ng-click="showModal( member.id )" /> <br />
 	<b>{{ member.name }}</b> - {{ member.duties }}
 </div>
 <div class="clear"></div>

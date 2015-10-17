@@ -1,0 +1,7 @@
+<h1 class="colorBlack">{{ memberDetail[0].name }}</h1>
+<h3 class="bioDuties">{{ memberDetail[0].duties }}</h3>
+<img ng-src="{{ memberDetail[0].picture }}" alt="{{ memberDetail[0].name }}" />
+<p ng-if="memberDetail[0].active == true">{{ memberDetail[0].name }} joined the band on {{ memberDetail[0].start_date }} and is currently a member.</p>
+<p ng-if="memberDetail[0].active == false">{{ memberDetail[0].name }} was with the band until {{ memberDetail[0].end_date }}.</p>
+<p>{{ memberDetail[0].description }}</p>
+<p><b>Other bands:</b> {{ memberDetail[0].other_bands }}</p>

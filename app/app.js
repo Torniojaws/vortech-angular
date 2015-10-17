@@ -15,7 +15,7 @@ angular.module('vortechApp', ['ngRoute', 'ngDialog', 'angularMoment'])
 	})
 	.when('/biography', {
 		templateUrl: 'app/biography/biography-view.html',
-		controller: 'biographyCtrl'
+		controller: 'biographyCtrl',
 	})
 	.when('/photos', {
 		templateUrl: 'app/photos/photos-view.html',
