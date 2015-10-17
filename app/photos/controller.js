@@ -1,12 +1,12 @@
 angular.module('vortechApp').controller('photosCtrl', function($scope, $http, ngDialog) {
 	$scope.photoalbums = [];
-	$http.get('api/api.php/photoalbums?test=testing123')
+	$http.get('api/api.php/photoalbums', { params: {test: "testing123"} })
 	.then(function(resAlbums) {
 		$scope.photoalbums = resAlbums.data;
 	});
 	
 	$scope.photos = [];
-	$http.get('api/api.php/photos?test=testing123')
+	$http.get('api/api.php/photos', { params: {test: "testing123"} })
 	.then(function(resPhotos) {
 		$scope.photos = resPhotos.data;
 	});

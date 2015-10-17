@@ -8,7 +8,7 @@
 	<link href="app/layout/ngDialog-theme-plain.css" rel="stylesheet" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.js"></script>
-	<base href="/vortech/angular/">
+	<base href="/vortech/angular/"> <!-- For correct base url regardless of entry point to the site -->
 </head>
 <body ng-app="vortechApp" ng-controller="layoutCtrl">
 	<header>
@@ -19,14 +19,16 @@
 		<nav class="siteMenu">
 			<span ng-repeat="menulink in menulinks">
 				<a ng-href="{{ menulink.url }}" class="menulink">{{ menulink.text | uppercase }}</a>
-				<span ng-if="!$last">|</span>
+				<span ng-if="!$last">|</span> <!-- Don't show separator bar after last menu item -->
 			</span>
 		</nav>
 	</header>
 	<div class="main pageContainer">
 		<section class="pageLeft">
 			<nav ng-repeat="external in externals">
-				<a ng-href="{{ external.url }}" class="externalLink"><img ng-src="{{ external.img }}" alt="{{ external.text }}" /></a>
+				<a ng-href="{{ external.url }}" class="externalLink">
+					<img ng-src="{{ external.img }}" alt="{{ external.text }}" />
+				</a>
 			</nav>
 		</section>
 		<section class="pageMiddle">

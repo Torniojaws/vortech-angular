@@ -276,7 +276,7 @@ a.menulink:hover {
 }
 
 .liveShowPlace {
-float: left;
+	float: left;
 	width: 200px;
 }
 
@@ -293,6 +293,12 @@ float: left;
 /* Biography */
 .longText {
 	margin-bottom: 8px;
+}
+
+.bioMember {
+	width: 50%;
+	float: left;
+	padding-bottom: 34px;
 }
 
 /* Guestbook */

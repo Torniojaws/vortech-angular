@@ -14,14 +14,14 @@ angular.module('vortechApp').controller('layoutCtrl', function($scope, $http) {
 	$scope.date = new Date();
 	
 	$scope.visitors = 0;
-	$http.get('api/api.php/visitors?test=testing123')
+	$http.get('api/api.php/visitors', { params: {test: "testing123"} })
 	.then(function(resVisitors) {
 		$scope.visitors = resVisitors.data[0];
 	});
 	
 	// Update visitor count
 	$scope.count = 1;
-	$http.put('api/api.php/visitors?test=testing123', $scope.count)
+	$http.put('api/api.php/visitors', { params: {test: "testing123"} })
 	.success(function(status) {
 		console.log(status);
 	})

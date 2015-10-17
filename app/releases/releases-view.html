@@ -1,5 +1,5 @@
 <p class="todo">TODO: Ulkoasu kuntoon.</p>
-<article ng-repeat="album in albums.slice().reverse()"> <!-- Reverse = latest album first -->
+<article ng-repeat="album in albums.slice().reverse()" ng-if="(album.release_date | date: 'yyyy') <= current_year"> <!-- Reverse = latest album first -->
 	<header class="albumTitle">
 		<h2>{{ album.title }}</h2>
 		<h3>{{ album.release_date }}</h3>
@@ -18,7 +18,7 @@
 	</section>
 	<section class="albumNotes">
 		<a ng-href="downloadlink">Download</a> (0 downloads) | 
-		<a ng-href="studio">Studio Report</a> | 
+		<a ng-href="releases/studio">Studio Report</a> | 
 		<a ng-href="{{ album.lyrics_file }}">Lyrics</a> | 
 		Duration: {{ album.duration }}
 	</section>

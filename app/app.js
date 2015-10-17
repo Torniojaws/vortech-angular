@@ -9,6 +9,10 @@ angular.module('vortechApp', ['ngRoute', 'ngDialog', 'angularMoment'])
 		templateUrl: 'app/releases/releases-view.html',
 		controller: 'releasesCtrl'
 	})
+	.when('/releases/:id', {
+		templateUrl: 'app/releases/release-view.html',
+		controller: 'releasesCtrl'
+	})
 	.when('/biography', {
 		templateUrl: 'app/biography/biography-view.html',
 		controller: 'biographyCtrl'

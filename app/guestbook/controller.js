@@ -1,6 +1,6 @@
 angular.module('vortechApp').controller('guestbookCtrl', function($scope, $http, moment) {
 	$scope.posts = []
-	$http.get('api/api.php/guestbook?test=testing123')
+	$http.get('api/api.php/guestbook', { params: {test: "testing123"} })
 	.then(function(resGuestbook) {
 		$scope.posts = resGuestbook.data;
 	});
