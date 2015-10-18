@@ -11,10 +11,21 @@ angular.module('vortechApp').controller('photosCtrl', function($scope, $http, ng
 		$scope.photos = resPhotos.data;
 	});
 	
-	$scope.showModal = function() {
+	$scope.showModal = function(param_path, id) {
+		console.log("Saatiin path:", param_path);
+		
+		// Get specific picture info
+		$scope.photoDetail = [];
+		$http.get('api/api.php/photos/' + id, { params: {test: "testing123"} })
+		.then(function(resPhotoDetail) {
+			$scope.photoDetail = resPhotoDetail.data;
+			$scope.photoDetail.push(param_path);
+			console.log("Saatiin det:", $scope.photoDetail);
+		});
 		ngDialog.open({
 			template: 'app/photos/photosModal.html',
 			className: 'ngdialog-theme-plain',
+			data: $scope.photoDetail,
 			showClose: true,
 			scope: $scope
 		});

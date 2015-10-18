@@ -4,17 +4,9 @@
 	<article class="photoAlbum" ng-repeat="album in photoalbums">
 		<h2>Album: {{ album.title }}</h2>
 		<div class="photolist" ng-repeat="pic in photos" ng-if="pic.album_id == album.id">
-			<a ng-href="{{ album.path + pic.filename }}">
-				<img ng-src="{{ album.path }}thumbnails/{{ pic.filename }}" alt="{{ pic.caption }}" />
-			</a>
+			<img ng-src="{{ album.path }}thumbnails/{{ pic.filename }}" alt="{{ pic.caption }}" ng-click="showModal( album.path, pic.id )" />
 			<p class="photoCaption">{{ pic.caption }}</p>
 		</div>
 		<div class="clear"></div>
 	</article>
-</section>
-
-<section ng-controller="photosCtrl">
-Modal test:
-<a href="" ng-click="showModal()">Test</a>
-		
 </section>
