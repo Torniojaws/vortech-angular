@@ -28,6 +28,19 @@ angular.module('vortechApp').controller('layoutCtrl', function($scope, $http) {
 	.error(function(data, status, header, config) {
 		console.log(data, status, header, config);
 	});
+	
+	// Album statistics for middle bar
+	$scope.mostDownloaded = [];
+	$http.get('api/api.php/album_statistics', { params: {test: "testing123", filter: "mostDownloaded"} })
+	.then(function(resStats) {
+		$scope.mostDownloaded = resStats.data[0];
+	});
+	
+	$scope.bestRating = [];
+	$http.get('api/api.php/album_statistics', { params: {test: "testing123", filter: "bestRating"} })
+	.then(function(resRating) {
+		$scope.bestRating = resRating.data[0];
+	});
 });
 
 // Todo: siirrä http serviceen

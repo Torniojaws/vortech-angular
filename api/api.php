@@ -13,8 +13,15 @@
 	
 	// Simple validation
 	if(!$_SERVER['QUERY_STRING']) die('Missing token!');
-	list($key, $value) = explode("=", $_SERVER['QUERY_STRING']);
-	list($value) = explode("&", $value); // Remove additional parameters (eg. test=123&second=filter)
+	// Get correct query string
+	$query = explode('&', $_SERVER['QUERY_STRING']);
+	$params = array();
+	foreach($query as $param) {
+		list($k, $v) = explode('=', $param, 2);
+		$params[urldecode($k)][] = urldecode($v);
+	}
+	$key = "test"; // In testing, this key is used
+	$value = $params[$key][0];
 	$userToken = $key . $value;
 	$salt = '$2a$07$usesomadasdsadsadsadasdasdasdsadesillystringfors';
 	$digest = crypt('testtesting123', $salt);
@@ -43,7 +50,7 @@
 				rest_post($table, $id, $db);  
 				break;
 			case 'GET':
-				rest_get($table, $id, $db);  
+				rest_get($table, $id, $db, $params);  
 				break;
 			case 'HEAD':
 				rest_head($table, $id, $db);  
@@ -87,18 +94,19 @@
 		*/
 		echo $r;
 	}
-	function rest_get($table, $id=null, $db) {
+	function rest_get($table, $id=null, $db, $params=null) {
 		/*
 			GET /releases/123	Reads data of release "123"
 			GET /releases		List of all releases
 		*/
-		if(isset($id)) {
-			$results = $db->getRow($id, $table);
+		if(isset($params['filter'])) {
+			$filter = $params['filter'][0];
+			$results = $db->getFilteredRow($id, $table, $filter);
 		} else {
-			$results = $db->getRows($table);
-			// The tracks for a given release are in a separate table
-			if($table == 'releases') {
-				$reults[] = $db->getRows('tracks');
+			if(isset($id)) {
+				$results = $db->getRow($id, $table);
+			} else {
+				$results = $db->getRows($table);
 			}
 		}
 		

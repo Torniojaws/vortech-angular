@@ -39,6 +39,24 @@
 			return mysqli_query($this->conn, $sql);
 		}
 		
+		public function getFilteredRow($id, $table, $filter) {
+			mysqli_select_db($this->conn, $this->db) or die(mysqli_error($this->conn));
+			$sql = "SELECT * FROM ";
+			switch($filter) {
+				case "mostDownloaded":
+					$sql .= "album_statistics";
+					$sql .= " ORDER BY downloads DESC LIMIT 1";
+					break;
+				case "bestRating":
+					$sql .= "album_statistics";
+					$sql .= "";
+					break;
+				default:
+					break;
+			}
+			return mysqli_query($this->conn, $sql);
+		}
+		
 		public function updateVisitorCount() {
 			mysqli_select_db($this->conn, $this->db) or die(mysqli_error($this->conn));
 			$sql = "UPDATE visitors SET count = count + 1";

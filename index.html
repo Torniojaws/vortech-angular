@@ -33,7 +33,12 @@
 		</section>
 		<section class="pageMiddle">
 			<p>Middle statistics</p>
-			<p class="todo">TODO: Toteutus, top albumit ja pikkusoitin kuten vanhassa</p>
+			<div class="pageMostDownloads">
+				<h3>Most Downloaded</h3>
+				{{ mostDownloaded.release_code }}
+				<h3>Best Rating</h3>
+				{{ bestRating.release_code }}
+			</div>
 		</section>
 		<section class="pageMain">
 			<div ng-view class="pageMainBox">

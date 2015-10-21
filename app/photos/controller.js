@@ -26,7 +26,7 @@ angular.module('vortechApp').controller('photosCtrl', function($scope, $http, ng
 			template: 'app/photos/photosModal.html',
 			className: 'ngdialog-theme-plain',
 			data: $scope.photoDetail,
-			showClose: true,
+			showClose: false,
 			scope: $scope
 		});
 	};
