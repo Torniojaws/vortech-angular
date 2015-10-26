@@ -1,4 +1,5 @@
-angular.module('vortechApp', ['ngRoute', 'ngDialog', 'angularMoment'])
+/* Note to self: Only add dependencies like ngRoute in here. Not in the controllers! It will break the app */
+angular.module('vortechApp', ['ngRoute', 'ngDialog', 'angularMoment', 'angularSoundManager'])
 .config(function($routeProvider) {
 	$routeProvider
 	.when('/news', {

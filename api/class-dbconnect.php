@@ -41,15 +41,16 @@
 		
 		public function getFilteredRow($id, $table, $filter) {
 			mysqli_select_db($this->conn, $this->db) or die(mysqli_error($this->conn));
-			$sql = "SELECT * FROM ";
 			switch($filter) {
 				case "mostDownloaded":
+					$sql = "SELECT * FROM ";
 					$sql .= "album_statistics";
 					$sql .= " ORDER BY downloads DESC LIMIT 1";
 					break;
 				case "bestRating":
-					$sql .= "album_statistics";
-					$sql .= "";
+					$sql = "SELECT id, release_code, points/votes AS \"rating\" FROM ";
+					$sql .= "album_statistics ";
+					$sql .= " WHERE votes >= 15 ORDER BY rating DESC LIMIT 3";
 					break;
 				default:
 					break;
