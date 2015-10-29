@@ -210,6 +210,10 @@ a.menulink:hover {
 	color: silver;
 }
 
+.pageAudioplayer {
+	width: 89px;
+}
+
 /* News */
 .newsPost {
 	margin: 0 auto;

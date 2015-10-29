@@ -43,37 +43,12 @@
 				</p>
 			</div>
 			<aside class="pageMusicPlayer">
-				<!-- TODO -->
-				<p class="todo">TODO: Doesn't work in Webkit browsers?</p>
-				<div class="pageSong" ng-repeat="song in songs">
-					<button music-player="play" add-song="song">{{ song.title }}</button>
-				</div>
-				<!-- init soundManager2 player -->
-                <sound-manager></sound-manager>
-
-				
-                <p>
-                    Currently Playing: {{ currentPlaying.title }} by {{ currentPlaying.artist }} ({{ currentPostion }} / {{ currentDuration }})
-                </p>
-				<div class="seekBase" seek-track>
-                    <div class="seekLoad" ng-style="{width : ( progress + '%' ) }"></div>
-                </div>
-				
-				<button play-music>Play</button>
-				
-				Is Playing: {{ isPlaying }}
-                <br/>
-                <br/>Volume: {{ volume }} -
-                <button music-volume data-type="increase">+</button>
-                -
-                <button music-volume data-type="decrease">-</button>
-                -
-                <button mute-music>Mute ({{ mute }})</button>
-				
-				<button pause-music>Pause</button>
-                -
-                <button stop-music>Stop</button>
-                <br/>
+				<p class="todo">TODO: Playlist and style</p>
+				<audio controls ng-repeat="song in songs" class="pageAudioplayer">
+					<source ng-src="{{ song.url + '.mp3' }}" type="audio/mpeg">
+					<source ng-src="{{ song.url + '.ogg' }}" type="audio/ogg">
+					Your browser does not support HTML5 Audio
+				</audio>
 			</aside>
 		</section>
 		<section class="pageMain">
@@ -108,20 +83,6 @@
 	<script src="libs/moment.js"></script> <!-- Date formatting and handling -->
 	<script src="libs/angular-moment.js"></script>
 	<script src="app/layout/filters.js"></script>
-	<script src="libs/angular-soundmanager2.js"></script> <!-- Music player in sidebar -->
-	
-	<!-- SoundManager2 -->
-	<script>
-	soundManager.setup({
-		url: 'libs/',
-		flashVersion: 9, // optional: shiny features (default = 8)
-		// optional: ignore Flash where possible, use 100% HTML5 mode
-		// preferFlash: false,
-		onready: function() {
-			// Ready to use; soundManager.createSound() etc. can now be called.
-		}
-	});
-	</script>
-	
+		
 </body>
 </html>
